@@ -25,6 +25,10 @@ li{
     border: 2px solid #00acfc;
     border-radius: 7px;
     padding: 10px;
+    background-color: #00acfc;
+}
+#contact-me:hover{
+    color: white;
 }
 
 a:link{
@@ -40,4 +44,5 @@ a:visited{
 
 a:hover{
     color: #00acfc;
+    text-decoration: underline;
 }
