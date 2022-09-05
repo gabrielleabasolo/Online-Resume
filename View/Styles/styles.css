@@ -8,44 +8,30 @@ li{
 }
 .nav-container-1{
     display: flex;
-    border: 1px solid red;
     justify-content: space-between;
     align-items: center;
+    margin: 10px;
 }
 
 .nav-box-1{
-    border: 1px solid black;
     margin: 1px 25px 1px;
 }
 
 .nav-box-2{
-    border: 1px solid green;
     margin: 10px;
-    padding: 1px 50px 1px;
-}
-#nav-box-2-parent{
-    display: flex;
-    justify-content: space-between;
 }
 
-#nav-box-1-inbetween{
-
+#contact-me{
+    border: 2px solid #00acfc;
+    border-radius: 7px;
+    padding: 10px;
 }
-#nav-box-2-inbetween{
-
-}
-#nav-box-3-inbetween{
-
-}
-#nav-box-4-inbetween{
-
-}
-
 
 a:link{
     color: black;
     font-weight: bold;
     text-decoration: none;
+    margin: 0px 25px 0px;
 }
 
 a:visited{
@@ -53,5 +39,5 @@ a:visited{
 }
 
 a:hover{
-    color: green;
+    color: #00acfc;
 }
